@@ -5,3 +5,10 @@
 \\psf\Home\Documents\Development\mono\RevStack\RevStack.Cache\RevStack.Cache\obj\Release\RevStack.Cache.pdb
 \\psf\Home\Documents\Development\mono\RevStack\RevStack.Cache\RevStack.Cache\bin\Release\RevStack.Pattern.dll
 \\psf\Home\Documents\Development\mono\RevStack\RevStack.Cache\RevStack.Cache\bin\Release\RevStack.Pattern.pdb
+\\Mac\Home\Documents\Development\mono\RevStack\updated\RevStack.Cache\RevStack.Cache\bin\Release\RevStack.Cache.dll
+\\Mac\Home\Documents\Development\mono\RevStack\updated\RevStack.Cache\RevStack.Cache\bin\Release\RevStack.Cache.pdb
+\\Mac\Home\Documents\Development\mono\RevStack\updated\RevStack.Cache\RevStack.Cache\bin\Release\RevStack.Pattern.dll
+\\Mac\Home\Documents\Development\mono\RevStack\updated\RevStack.Cache\RevStack.Cache\bin\Release\RevStack.Pattern.pdb
+\\Mac\Home\Documents\Development\mono\RevStack\updated\RevStack.Cache\RevStack.Cache\obj\Release\RevStack.Cache.csprojResolveAssemblyReference.cache
+\\Mac\Home\Documents\Development\mono\RevStack\updated\RevStack.Cache\RevStack.Cache\obj\Release\RevStack.Cache.dll
+\\Mac\Home\Documents\Development\mono\RevStack\updated\RevStack.Cache\RevStack.Cache\obj\Release\RevStack.Cache.pdb
