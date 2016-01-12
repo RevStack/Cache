@@ -1,0 +1,7 @@
+\\psf\Home\Documents\Development\mono\RevStack\RevStack.Cache\RevStack.Cache\obj\Debug\RevStack.Cache.csprojResolveAssemblyReference.cache
+\\psf\Home\Documents\Development\mono\RevStack\RevStack.Cache\RevStack.Cache\bin\Debug\RevStack.Cache.dll
+\\psf\Home\Documents\Development\mono\RevStack\RevStack.Cache\RevStack.Cache\bin\Debug\RevStack.Cache.pdb
+\\psf\Home\Documents\Development\mono\RevStack\RevStack.Cache\RevStack.Cache\obj\Debug\RevStack.Cache.dll
+\\psf\Home\Documents\Development\mono\RevStack\RevStack.Cache\RevStack.Cache\obj\Debug\RevStack.Cache.pdb
+\\psf\Home\Documents\Development\mono\RevStack\RevStack.Cache\RevStack.Cache\bin\Debug\RevStack.Pattern.dll
+\\psf\Home\Documents\Development\mono\RevStack\RevStack.Cache\RevStack.Cache\bin\Debug\RevStack.Pattern.pdb
