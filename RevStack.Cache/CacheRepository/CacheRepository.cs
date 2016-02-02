@@ -8,16 +8,20 @@ namespace RevStack.Cache
 {
     public class CacheRepository<TEntity,TKey> : ICacheRepository<TEntity,TKey> where TEntity :class, IEntity<TKey>
     {
-        protected double _hours;
+        protected double _hours=2;
         protected DateTimeOffset _expirationOffset;
-        protected const double EXPIRATION_HOURS = 2;
-        public CacheRepository()
+       
+        public virtual double Hours
         {
-            _hours = EXPIRATION_HOURS;
-        }
-        public CacheRepository(double hours)
-        {
-            _hours = hours;
+            get
+            {
+                return _hours;
+            }
+
+            set
+            {
+                _hours = value;
+            }
         }
 
         public virtual TEntity Get(string key)
@@ -25,7 +29,17 @@ namespace RevStack.Cache
             throw new NotImplementedException();
         }
 
+        public virtual IEnumerable<TEntity> Get(string key,bool isEnumerable)
+        {
+            throw new NotImplementedException();
+        }
+
         public virtual void Set(string key, TEntity entity)
+        {
+            throw new NotImplementedException();
+        }
+
+        public virtual void Set(string key, IEnumerable<TEntity> entity, bool isEnumerable)
         {
             throw new NotImplementedException();
         }
@@ -64,5 +78,6 @@ namespace RevStack.Cache
         {
             throw new NotImplementedException();
         }
+
     }
 }

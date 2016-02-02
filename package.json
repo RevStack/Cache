@@ -1,6 +1,6 @@
 {
   "name": "RevStack.Cache",
-  "version": "0.9.1",
+  "version": "0.9.2",
   "description": "Cache repository pattern abstraction",
   "main": "RevStack.Cache.sin",
   "scripts": {

@@ -12,3 +12,17 @@
 \\Mac\Home\Documents\Development\mono\RevStack\updated\RevStack.Cache\RevStack.Cache\obj\Debug\RevStack.Cache.csprojResolveAssemblyReference.cache
 \\Mac\Home\Documents\Development\mono\RevStack\updated\RevStack.Cache\RevStack.Cache\obj\Debug\RevStack.Cache.dll
 \\Mac\Home\Documents\Development\mono\RevStack\updated\RevStack.Cache\RevStack.Cache\obj\Debug\RevStack.Cache.pdb
+\\Mac\Home\Documents\Development\mono\RevStack\updated\RevStack.Cache\RevStack.Cache\bin\Debug\RevStack.Mvc.dll
+\\Mac\Home\Documents\Development\mono\RevStack\updated\RevStack.Cache\RevStack.Cache\bin\Debug\RevStack.Cryptography.dll
+\\Mac\Home\Documents\Development\mono\RevStack\updated\RevStack.Cache\RevStack.Cache\bin\Debug\Newtonsoft.Json.dll
+\\Mac\Home\Documents\Development\mono\RevStack\updated\RevStack.Cache\RevStack.Cache\bin\Debug\System.Web.Http.dll
+\\Mac\Home\Documents\Development\mono\RevStack\updated\RevStack.Cache\RevStack.Cache\bin\Debug\MiscUtil.dll
+\\Mac\Home\Documents\Development\mono\RevStack\updated\RevStack.Cache\RevStack.Cache\bin\Debug\System.Net.Http.Formatting.dll
+\\Mac\Home\Documents\Development\mono\RevStack\updated\RevStack.Cache\RevStack.Cache\bin\Debug\RevStack.Mvc.pdb
+\\Mac\Home\Documents\Development\mono\RevStack\updated\RevStack.Cache\RevStack.Cache\bin\Debug\RevStack.Cryptography.pdb
+\\Mac\Home\Documents\Development\mono\RevStack\updated\RevStack.Cache\RevStack.Cache\bin\Debug\RevStack.Cryptography.xml
+\\Mac\Home\Documents\Development\mono\RevStack\updated\RevStack.Cache\RevStack.Cache\bin\Debug\Newtonsoft.Json.xml
+\\Mac\Home\Documents\Development\mono\RevStack\updated\RevStack.Cache\RevStack.Cache\bin\Debug\System.Web.Http.xml
+\\Mac\Home\Documents\Development\mono\RevStack\updated\RevStack.Cache\RevStack.Cache\bin\Debug\MiscUtil.pdb
+\\Mac\Home\Documents\Development\mono\RevStack\updated\RevStack.Cache\RevStack.Cache\bin\Debug\MiscUtil.xml
+\\Mac\Home\Documents\Development\mono\RevStack\updated\RevStack.Cache\RevStack.Cache\bin\Debug\System.Net.Http.Formatting.xml

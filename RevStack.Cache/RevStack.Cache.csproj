@@ -30,6 +30,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="RevStack.Mvc">
+      <HintPath>..\..\RevStack.Mvc\bin\Release\RevStack.Mvc.dll</HintPath>
+    </Reference>
     <Reference Include="RevStack.Pattern">
       <HintPath>..\..\RevStack.Pattern\RevStack.Pattern\bin\Release\RevStack.Pattern.dll</HintPath>
     </Reference>
@@ -49,6 +52,7 @@
     <Compile Include="CacheRepository\ICacheRepository.cs" />
     <Compile Include="CacheService\CacheService.cs" />
     <Compile Include="CacheService\ICacheService.cs" />
+    <Compile Include="Cookie\CookieRepository.cs" />
     <Compile Include="HttpContext\HttpCacheRepository.cs" />
     <Compile Include="Memory\MemoryCacheRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

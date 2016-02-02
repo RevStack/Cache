@@ -1,7 +1,8 @@
 ﻿using System;
-using System.Collections;
+using System.Collections.Generic;
 using System.Runtime.Caching;
 using RevStack.Pattern;
+
 
 namespace RevStack.Cache
 {
@@ -11,21 +12,27 @@ namespace RevStack.Cache
         protected CacheItemPolicy _policy;
         public MemoryCacheRepository() : base()
         {
-            _hours = EXPIRATION_HOURS;
-            setCachePolicy();
-
-        }
-        public MemoryCacheRepository(double hours) : base(hours)
-        {
-            _hours = hours;
             setCachePolicy();
         }
-
+        
         protected void setCachePolicy()
         {
             _context = MemoryCache.Default;
             _policy = new CacheItemPolicy();
             _policy.AbsoluteExpiration = DateTimeOffset.Now.AddHours(_hours);
+        }
+
+        public override double Hours
+        {
+            get
+            {
+                return _hours;
+            }
+            set
+            {
+                _hours = value;
+                _policy.AbsoluteExpiration = DateTimeOffset.Now.AddHours(_hours);
+            }
         }
 
         public override void Clear()
@@ -45,12 +52,22 @@ namespace RevStack.Cache
             return (TEntity)_context.Get(key);
         }
 
+        public override IEnumerable<TEntity> Get(string key, bool isEnumerable)
+        {
+            return (IEnumerable<TEntity>)_context.Get(key);
+        }
+
         public override void Remove(string key)
         {
             _context.Remove(key);
         }
 
         public override void Set(string key, TEntity entity)
+        {
+            _context.Set(key, entity, _policy);
+        }
+
+        public override void Set(string key, IEnumerable<TEntity> entity, bool isEnumerable)
         {
             _context.Set(key, entity, _policy);
         }
